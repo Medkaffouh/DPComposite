@@ -14,6 +14,11 @@ public class Test {
         d2.addComponent(new File("Adapter"));
         d3.addComponent(new File("Singleton"));
         d3.addComponent(new File("Builder"));
+        Folder d21= (Folder) d2.addComponent(new Folder("Str21"));
+        d21.addComponent(new File("C211"));
+        d21.addComponent(new File("C212"));
+        d21.addComponent(new File("C213"));
+
         root.show();
     }
 }
